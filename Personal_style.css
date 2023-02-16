@@ -7,7 +7,7 @@
 }
 body{
 min-height: 100vh;
-background-color: #EEEEEE;
+background-color: #eeeeee;
 margin: auto;
 margin-top: 1vh;
 width: 960px;
@@ -51,12 +51,12 @@ nav{
     font-size: 2.5vh;
     background-color: #222831;
     color: whitesmoke;
-    padding: 1vh 4vh;
+    padding: 1vh;
     text-decoration: none;
-    margin: 0 70px 0px 0px;
+    margin: auto;
     } 
 
-    /*HOLA*/
+   
     
 /*Image Nav*/
 nav img {   
@@ -102,7 +102,7 @@ font-size: 2.5vh;
 text-align: center;
 }
 
-.principal-section dt,h3,p{
+.principal-section dt,td,h3,p{
     margin-bottom: 1vh;
     right: -31vh;
 }
@@ -121,19 +121,20 @@ text-align: center;
     justify-content: center;
     display: flex;
     align-items: center;
-    font-size: 2.5vh;
-    margin-bottom: 8vh;
+    font-size: 2vh;
+    margin-bottom: 6vh;
     width: 100%;
     border-collapse: collapse;
 }
 
 .schedule th,td{
-padding: 10px 10vh;
+padding: 10px 5vh;
 }
 
 .center-txt{
     border: #222831 5px solid;
     margin-bottom: 2vh;
+    
 }
 .center-txt p{   
     margin: 1vh;
@@ -163,3 +164,127 @@ text-align: center;
     font-size: 15px;
     text-align: center;
 }
+
+
+.form-section {
+    display: flex;
+    width: 100%;
+    
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: #24303c;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-section h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .form-section h5 {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .controls {
+    width:47.5%;
+    background: #eeeeee;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px;
+    border: 2px solid #24303c;
+    font-size: 18px;
+    color: #24303c;
+  }
+  
+  .form-section p {
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  
+  .form-section .botons {
+    font-weight: 600;
+    width: 100%;
+    background: #24303c;
+    border: none;
+    padding: 14px;
+    color: #eeeeee;
+    margin: 60px 0;
+    font-size: 16px;
+    border:3px solid #24303c;
+  }
+
+  .form-section .botons:hover{
+    color: #24303c;
+    background: #eeeeee;
+  }
+
+  .form-section label{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:  440px;
+  }
+
+  .controls-check{
+    width:3%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px 10px 30px 10px;
+    border: 1px solid #eeeeee;
+    font-size: 18px;
+    color: #eeeeee;
+  }
+
+  .section-check label{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    width: 48.9%;
+    font-size: 16px;
+    justify-content: center;
+  }
+
+  .section-check h4{
+    margin-top: 30px;
+  }
+
+.locations-section{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-bottom: 30px;
+}
+
+.locations{
+justify-content: center;
+align-items: center;
+background: #24303c;
+text-align: center;
+margin: 20px;
+padding: 4px;
+color: #eeeeee;
+font-size: 20px;
+}
+
+.locations-section p{
+margin: 10px;
+}
+
+.locations-section iframe{
+    width: 300px;
+    height: 100px;
+    }
+    
